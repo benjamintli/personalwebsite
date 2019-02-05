@@ -1,0 +1,189 @@
+.navbar{ background: #ACBDBA; }
+
+.nav-link , .navbar-brand{ color: #414141; cursor: pointer;}
+
+.navbar-brand:hover{color: #f4f4f4; }
+
+.nav-link{ margin-right: lem !important; }
+
+.nav-link:hover{color : #f4f4f4; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+/*header style*/
+.header{
+    background-image: url('../images/header2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #D7D6D6;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.75);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color:rgb(65, 63, 63);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+body { background: #D7D6D6 !important;}
+
+.about{
+    margin: 4em 0;
+    padding: 1.5em;
+    position: relative;
+   }
+   .about h1{
+    color:#414141;
+    margin: 1em;
+   }
+   .about img{
+        border-radius: 60%;
+        border: 20px;
+        background-image: url(../images/me.jpg); 
+        background-position:center; 
+   }
+   .about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+   }
+   .about .desc{
+    padding: 1.5em;
+    border-left:4px solid #ACBDBA;
+   }
+   .about .desc h3{
+    color: #ACBDBA;
+   }
+   .about .desc p{
+    line-height:2;
+    color:#888;
+   }
+
+#about {
+    background-color: #f4f4f4;
+    margin: 1em;
+}
+
+.projects {
+    margin: 1em;
+    padding: 1.5em;
+    position: relative; 
+    background-color: #f4f4f4;
+    text-align: center;
+   }
+   .projects h1{
+    color:#414141;
+    padding: 1em; 
+   }
+   .projects .card{
+    box-shadow: 0 0 20px #ccc;
+    background-color: #ACBDBA;
+    background-size: fixed;
+   }
+   .projects .card img{
+    height: 16em;    
+   }
+   .projects .card-title{
+    color:#414141;
+    background-size: fixed;
+     
+   }
+   .projects .card-body{
+    padding: 1em;
+    background-size: fixed;
+   }
+   .projects .card-footer{
+       background-color: #ACBDBA;
+   }
+   .projects .card-link{
+       color: #414141;
+   }
+   .projects .card-link:hover {
+       color: blue;
+       
+   }
+   .projects .card .inner h2{
+       color: white;
+       font-size: 25px;
+   }
+   .projects .card .inner h3{
+       color: white;
+       font-size: 15px;
+       padding: 0.1em;
+   }
+.footer {
+    margin: 1em;
+    position: relative; 
+    background-color: #f4f4f4;
+    padding: 1.5em;
+}
+.footer h1{
+    color:#414141;
+    padding: 1em; 
+   }
+.footer a{
+    color: #414141;
+}
+.footer a:hover{
+    opacity: 0.6;
+}
+
+.inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+
+.cardbutton {
+    margin: 1em;
+  }
+
+.cardoverlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+  
+.cardbutton a {
+    padding: 12px 12px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+}
+
+
+
+  

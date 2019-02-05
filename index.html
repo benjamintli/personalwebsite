@@ -1,0 +1,182 @@
+<html lang="en">
+
+<head>
+    <title>Benjamin Li</title>
+    <!-- add bootstrap css file -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" data-value="top" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#">About</a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="projects" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="top">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="description ">
+                <h1>
+                    Benjamin Li
+                    <p>
+                        Student @ Queen's University, <br />
+                        Aspiring Software Engineer</p>
+                    <button class="btn btn-outline-secondary btn-lg" onClick="document.getElementById('about').scrollIntoView({block: 'end', behavior: 'smooth'});">See
+                        more
+                    </button>
+                </h1>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="about" id="about">
+        <div class="about-container">
+            <h1 class="text-center">About Me</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/me.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+                    <h3>Student & Aspiring Software Engineer</h3>
+                    <p>
+                        Hi, my name is Ben and I'm in my third year of Computer Engineering at Queen's University.
+                        I love software development, with special interests in areas like cloud computing, machine
+                        learning, and
+                        graphics (AR/VR). In terms of work experience, I've interned previously at RBC Digital as a
+                        Test Automation
+                        Developer, and will be interning this summer as an SDE Intern at Amazon. In my spare time, I
+                        enjoy working on
+                        side projects, attending hackathons, and educating myself about the tech industry.
+
+                        Outside of coding, I enjoy listening to music, playing guitar, and cooking.
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Posts section -->
+    <div class="projects" id="projects">
+        <div class="container" id="cardholder">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/lucyar.png" class="img-fluid">
+                        </div>
+                        <div class="cardoverlay">
+                            <div class="inner">
+                                <h2>
+                                    LucyAR
+                                    <h3>
+                                        A mobile app that lets users visualize furniture within their living space
+                                        with AR.
+                                    </h3>
+                                </h2>
+
+                                <div class="cardbutton"><a href="https://github.com/lucy-ar"> GITHUB </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/sentiment.png" class="img-fluid">
+                        </div>
+                        <div class="cardoverlay">
+                            <div class="inner">
+                                <h2>
+                                    Sentiment Analyzer
+                                </h2>
+                                <h3>
+                                    A mobile app that uses NLP to determine the sentiment of phrases.
+                                </h3>
+                                <div class="cardbutton"><a href="https://github.com/benjamintli/sentiment_analysis_app"> GITHUB </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/cardboard.JPG" class="img-fluid">
+                        </div>
+                        <div class="cardoverlay">
+                            <div class="inner">
+                                <h2>
+                                    Roam
+                                </h2>
+                                <h3>
+                                    A webVR app with a voice-driven user interface that lets users travel around the world.
+                                </h3>
+                                <div class="cardbutton"><a href="https://github.com/benjamintli/qhacks2019"> GITHUB </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 ">
+                    <h1 class="text-center">Contact Me</h1>
+                    <div class="row">
+
+                        <div class="col-sm-4">
+                            <a href="https://www.linkedin.com/in/btli98/" target="_blank">
+                                <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://github.com/benjamintli/" target="_blank">
+                                <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="mailto:b.li@queensu.ca" target="_blank">
+                                <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='js/main.js'></script>
+
+</body>
+
+
+</html>
