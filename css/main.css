@@ -1,12 +1,12 @@
-.navbar{ background: #8DB8EB; }
+.navbar{ background: #222222; }
 
-.nav-link , .navbar-brand{ color: #414141; cursor: pointer;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
-.navbar-brand:hover{color: #f4f4f4;}
+.navbar-brand:hover{color: #666;}
 
 .nav-link{ margin-right: lem !important; }
 
-.nav-link:hover{color : #f4f4f4; }
+.nav-link:hover{color : #666; }
 
 .navbar-collapse{ justify-content: flex-end;}
 
@@ -14,13 +14,15 @@
 
 /*header style*/
 .header{
-    background-image: url('../images/toronto-skyline.jpg');
+    /* background-image: url('../images/toronto-skyline.jpg'); */
     background-attachment: fixed;
     background-position: center;
-    background-color: #D7D6D6;
+    background-color: #f4f4f4;
     position: relative;
     height: 100vh;
     width: 100vw;
+    margin: 1em;
+    padding: 1.5em;
 }
 
 .overlay{
@@ -40,23 +42,28 @@
 }
 
 .description h1{
-    color:rgb(65, 63, 63);
+    color:#414141;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 60px;
 }
 .description p{
-	color:#666;
+	color:#414141;
 	font-size: 20px;
 	line-height: 1.5;
 }
 
-body { background: #D7D6D6 !important;}
+body { background: #f4f4f4 !important;}
 
 .about{
     margin: 4em 0;
     padding: 1.5em;
     position: relative;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
    .about h1{
     color:#414141;
@@ -70,20 +77,20 @@ body { background: #D7D6D6 !important;}
    }
    .about span{
     display: block;
-    color: #888;
+    color: #222;
     position: absolute;
     left: 115px;
    }
    .about .desc{
     padding: 1.5em;
-    border-left:4px solid #8DB8EB;
+    border-left:4px solid #666;
    }
    .about .desc h3{
-    color: #8DB8EB;
+    color: #666;
    }
    .about .desc p{
     line-height:2;
-    color:#888;
+    color:#414141;
    }
 
 #about {
@@ -97,6 +104,11 @@ body { background: #D7D6D6 !important;}
     position: relative; 
     background-color: #f4f4f4;
     text-align: center;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
    .projects h1{
     color:#414141;
@@ -104,7 +116,7 @@ body { background: #D7D6D6 !important;}
    }
    .projects .card{
     box-shadow: 0 0 20px #ccc;
-    background-color: #8DB8EB;
+    background-color: #3700B3;
     background-size: fixed;
    }
    .projects .card img{
@@ -143,6 +155,11 @@ body { background: #D7D6D6 !important;}
     position: relative; 
     background-color: #f4f4f4;
     padding: 1.5em;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .footer h1{
     color:#414141;
@@ -185,7 +202,7 @@ body { background: #D7D6D6 !important;}
 }
 
 #buttonsee:hover {
-    background-color: #8DB8EB;
+    background-color: #414141;
 }
 
 
