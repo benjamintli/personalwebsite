@@ -20,9 +20,13 @@
     background-color: #f4f4f4;
     position: relative;
     height: 100vh;
-    width: 100vw;
     margin: 1em;
     padding: 1.5em;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .overlay{
@@ -37,7 +41,7 @@
 .description{
     position: absolute;
     top: 30%;
-    margin: auto;
+    margin: 1;
     padding: 2em;
 }
 
@@ -116,10 +120,20 @@ body { background: #f4f4f4 !important;}
    }
    .projects .card{
     box-shadow: 0 0 20px #ccc;
-    background-color: #3700B3;
+    background-color: #f4f4f4;
     background-size: fixed;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.5em;
    }
    .projects .card img{
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
     height: 16em;    
    }
    .projects .card-title{
@@ -132,7 +146,7 @@ body { background: #f4f4f4 !important;}
     background-size: fixed;
    }
    .projects .card-footer{
-       background-color: #8DB8EB;
+       background-color: #f4f4f4;
    }
    .projects .card-link{
        color: #414141;
@@ -192,6 +206,10 @@ body { background: #f4f4f4 !important;}
     top: 0;
     background: rgba(0, 0, 0, 0.8);
     display: none;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
 }
   
 .cardbutton a {
